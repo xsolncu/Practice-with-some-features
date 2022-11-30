@@ -1,0 +1,36 @@
+.menu-wrapper {
+  position: relative;
+  width: 200px;
+
+  margin: 25px 0;
+}
+
+.menu-text {
+  height: 35px;
+  width: inherit;
+
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.menu-panel {
+  width: inherit;
+
+  position: absolute;
+  top: 40px;
+  left: 0;
+
+  background-color: pink;
+
+  z-index: 2;
+
+  &-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
