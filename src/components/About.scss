@@ -1,0 +1,32 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu-item {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  text-align: center;
+  letter-spacing: 5px;
+  align-items: center;
+  position: relative;
+}
+.side-menu-content {
+  top: 100%;
+  position: absolute;
+  margin-top: 10px;
+  display: flex;
+  opacity: 100;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  display: none;
+}
+.active {
+  display: block;
+}

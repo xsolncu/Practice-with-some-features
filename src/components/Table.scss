@@ -1,0 +1,9 @@
+.table {
+  display: flex;
+  .table-content {
+    font-size: 21px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+}
